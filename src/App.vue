@@ -1,12 +1,23 @@
 <template>
   <div id="app">
     <HelloWorld msg="Welcome to Your Vue.js App" />
-    <div style="marginBottom: 10px">
+    <div style="marginbottom: 10px">
       <el-button type="primary" @click="goto('Home')">首页</el-button>
-      <el-button type="primary" @click="goto('Login')" style="marginRight: 10px">登录</el-button
+      <el-button type="primary" @click="goto('Login')" style="marginRight: 10px"
+        >登录</el-button
       >
-      <router-link to="/Detail" tag="button" style="marginRight: 10px">详情</router-link>
-      <router-link to="/Mine" tag="button">我的</router-link>
+      <router-link to="/Detail" tag="button" style="marginRight: 10px"
+        >详情</router-link
+      >
+      <router-link to="/Mine" tag="button" style="marginRight: 10px"
+        >我的</router-link
+      >
+      <router-link to="/Smarty" tag="button" style="marginRight: 10px"
+        >模板语法</router-link
+      >
+      <router-link to="/Computed" tag="button" style="marginRight: 10px"
+        >Computed和Watch</router-link
+      >
     </div>
     <router-view></router-view>
   </div>
