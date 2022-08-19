@@ -18,6 +18,12 @@
       <router-link to="/Computed" tag="button" style="marginRight: 10px"
         >Computed和Watch</router-link
       >
+      <router-link to="/SlotC" tag="button" style="marginRight: 10px"
+        >slot</router-link
+      >
+      <router-link to="/VuexDemo" tag="button" style="marginRight: 10px"
+        >Vuex</router-link
+      >
     </div>
     <router-view></router-view>
   </div>

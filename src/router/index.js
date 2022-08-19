@@ -7,6 +7,8 @@ import Detail from "../views/Detail";
 import Mine from "../views/Mine";
 const Smarty = () => import("../views/Smarty");
 const Computed = () => import("../views/Computed");
+const SlotC = () => import("../views/Slot/Index");
+const VuexDemo = () => import("../views/VuexDemo/index");
 
 import GoodOne from "../views/Detail/GoodOne";
 import GoodTwo from "../views/Detail/GoodTwo";
@@ -34,6 +36,8 @@ const routes = [
   { path: "/Mine", component: Mine },
   { path: "/Smarty", component: Smarty },
   { path: "/Computed", component: Computed },
+  { path: "/SlotC", component: SlotC },
+  { path: "/VuexDemo", component: VuexDemo },
 ];
 const router = new VueRouter({
   routes,
