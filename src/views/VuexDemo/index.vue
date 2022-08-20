@@ -10,12 +10,18 @@
     <!-- <p>initNum:{{ initNumAddCount }}</p> -->
     <h4>核心属性getters</h4>
     <Getters></Getters>
+    <h4>核心属性Actions</h4>
+    <Actions></Actions>
+    <h4>核心属性Modules</h4>
+    <ModuleCom></ModuleCom>
   </div>
 </template>
 
 <script>
 import { mapState } from "vuex";
 import Getters from "./Getters";
+import Actions from "./Actions";
+import ModuleCom from './ModuleCom'
 export default {
   name: "VuexDemo",
   data: () => {
@@ -25,6 +31,8 @@ export default {
   },
   components: {
     Getters,
+    Actions,
+    ModuleCom
   },
   // created: function () {
   //   console.log(this.$store.state.count, "哈哈");

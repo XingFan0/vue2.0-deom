@@ -1,6 +1,6 @@
 <template>
   <div id="Getters">
-    <el-button @click="addSub">添加科目</el-button>
+    <el-button @click="addSub" type='primary'>添加科目</el-button>
     <p>已完成科目</p>
     <ul>
       <li v-for="sub in doneTodos" :key="sub.id">{{ sub.text }}</li>
