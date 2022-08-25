@@ -24,6 +24,12 @@
       <router-link to="/VuexDemo" tag="button" style="marginRight: 10px"
         >Vuex</router-link
       >
+      <router-link to="/Sass" tag="button" style="marginRight: 10px"
+        >Sass以及样式穿透</router-link
+      >
+      <router-link to="/Signal" tag="button" style="marginRight: 10px"
+        >组件通信</router-link
+      >
     </div>
     <router-view></router-view>
   </div>

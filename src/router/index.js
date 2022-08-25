@@ -38,9 +38,12 @@ const routes = [
   { path: "/Computed", component: Computed },
   { path: "/SlotC", component: SlotC },
   { path: "/VuexDemo", component: VuexDemo },
+  { path: "/Sass", component: () => import("../views/Scss/Scss") },
+  { path: "/Signal", component: () => import("../views/Signal") },
 ];
 const router = new VueRouter({
   routes,
+  mode: "hash",
 });
 // 解决点击多次报错
 const originalPush = VueRouter.prototype.push;
